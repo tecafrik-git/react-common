@@ -25,7 +25,8 @@ export default defineConfig({
         "@mui/icons-material",
         "@emotion/styled",
         "@emotion/react",
-        "react-router-dom"
+        "react-router-dom",
+        "@react-google-maps/api"
       ],
     },
   },
