@@ -66,11 +66,11 @@ const RACoordsInput = (props: CoordsInputProps) => {
         required={isRequired}
         onChange={(e) => {
           field.onChange({
-            ...field.value,
+            ...value,
             lat: Number(e.target.value),
           });
         }}
-        value={field.value.lat}
+        value={value?.lat}
         sx={{
           flex: 1,
         }}
@@ -83,11 +83,11 @@ const RACoordsInput = (props: CoordsInputProps) => {
         required={isRequired}
         onChange={(e) => {
           field.onChange({
-            ...field.value,
+            ...value,
             lng: Number(e.target.value),
           });
         }}
-        value={field.value.lng}
+        value={value?.lng}
         sx={{
           flex: 1,
         }}
